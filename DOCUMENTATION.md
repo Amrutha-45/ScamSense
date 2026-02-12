@@ -71,7 +71,7 @@ Python dependencies:
 ### `.env.example`
 Environment variables template:
 ```
-OPENAI_API_KEY=sk-...           # Required for GPT-4o
+GEMINI_API_KEY=sk-...           # Required for gemini1.5
 DATABASE_URL=postgresql://...    # PostgreSQL connection
 ES_CLOUD_ID=...                  # Elasticsearch cloud
 ES_API_KEY=...                   # Elasticsearch auth
@@ -99,9 +99,9 @@ class Settings(BaseSettings):
     APP_VERSION: str = "1.0.0"
     
     # OpenAI
-    OPENAI_API_KEY: str              # Required
-    OPENAI_MODEL: str = "gpt-4o"     # Default model
-    OPENAI_TEMPERATURE: float = 0.1  # Low = more deterministic
+    GEMINI_API_KEY: str              # Required
+    GEMINI_MODEL: str = "gpt-4o"     # Default model
+    GEMINI_TEMPERATURE: float = 0.1  # Low = more deterministic
     
     # PostgreSQL
     DATABASE_URL: str = "postgresql://..."
