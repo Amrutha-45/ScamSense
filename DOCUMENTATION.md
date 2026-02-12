@@ -60,7 +60,7 @@ Python dependencies:
 - `fastapi` - Web framework
 - `uvicorn` - ASGI server
 - `langgraph` - Agent orchestration
-- `langchain-openai` - GPT-4o integration
+- `langchain-geminiAPI` - gemini1.5 integration
 - `asyncpg` - Async PostgreSQL driver
 - `elasticsearch` - Elasticsearch client
 - `redis` - Redis client
