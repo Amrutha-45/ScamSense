@@ -81,4 +81,4 @@ async def alerter_agent(state: AgentState) -> AgentState:
         "alerted": alerted,
         "channels_used": channels_used,
         "family_notified": family_notified
-    }
+}
